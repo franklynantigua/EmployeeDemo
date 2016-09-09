@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinDemoApp.Views.MainPage"
+             xmlns:ViewModels="clr-namespace:XamarinDemoApp.ViewModels;assembly=XamarinDemoApp">
+             <!-- xmlns:ui="clr-namespace:XamarinDemoApp.UI;assembly=XamarinDemoApp">
+ 
+  
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <ui:CustomDataTemplateSelector x:Key="CustomDataTemplateSelector"/>
+    </ResourceDictionary>
+  </ContentPage.Resources>--> 
+  
+  
+  
+  
+  <ContentPage.BindingContext>
+    <ViewModels:MainViewModel/>
+  </ContentPage.BindingContext>
+  
+      <StackLayout Orientation="Vertical">
+        
+        <Button Text="Add new  Employee"
+              Clicked="Button_OnClicked"/>    
+
+  <Button Text="Search Employees"
+          TextColor="White"
+          BackgroundColor="Purple"
+         Clicked="SearchButton_OnClicked"/>    
+        
+
+        
+        <ListView x:Name ="EmployeesListView"
+            ItemsSource="{Binding  EmployeesList}"
+            HasUnevenRows="True"
+            ItemTapped="ListView_OnItemTapped">
+                  <!-- ItemTemplate="{Binding  CustomDataTemplateSelector}"-->  
+          
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+          <StackLayout Orientation ="Vertical">
+            <Label Text =" {Binding Name }"
+                   FontSize="24"/>
+            <Label Text =" {Binding Department }"
+                   FontSize="18"
+                   Opacity="0.6" />
+          </StackLayout>
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>  
+  </ListView>
+  </StackLayout>
+  
+  
+
+</ContentPage>

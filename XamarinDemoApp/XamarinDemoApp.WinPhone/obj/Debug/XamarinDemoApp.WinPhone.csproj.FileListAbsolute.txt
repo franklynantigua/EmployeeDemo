@@ -1,0 +1,11 @@
+C:\Users\albert\documents\visual studio 2015\Projects\XamarinDemoApp\XamarinDemoApp\XamarinDemoApp.WinPhone\obj\Debug\XamarinDemoApp.WinPhone.csprojResolveAssemblyReference.cache
+C:\Users\albert\documents\visual studio 2015\Projects\XamarinDemoApp\XamarinDemoApp\XamarinDemoApp.WinPhone\obj\Debug\App.g.i.cs
+C:\Users\albert\documents\visual studio 2015\Projects\XamarinDemoApp\XamarinDemoApp\XamarinDemoApp.WinPhone\obj\Debug\App.g.cs
+C:\Users\albert\documents\visual studio 2015\Projects\XamarinDemoApp\XamarinDemoApp\XamarinDemoApp.WinPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\albert\documents\visual studio 2015\Projects\XamarinDemoApp\XamarinDemoApp\XamarinDemoApp.WinPhone\obj\Debug\MainPage.g.cs
+C:\Users\albert\documents\visual studio 2015\Projects\XamarinDemoApp\XamarinDemoApp\XamarinDemoApp.WinPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\albert\documents\visual studio 2015\Projects\XamarinDemoApp\XamarinDemoApp\XamarinDemoApp.WinPhone\obj\Debug\App.xaml
+C:\Users\albert\documents\visual studio 2015\Projects\XamarinDemoApp\XamarinDemoApp\XamarinDemoApp.WinPhone\obj\Debug\MainPage.xaml
+C:\Users\albert\documents\visual studio 2015\Projects\XamarinDemoApp\XamarinDemoApp\XamarinDemoApp.WinPhone\obj\Debug\App.xbf
+C:\Users\albert\documents\visual studio 2015\Projects\XamarinDemoApp\XamarinDemoApp\XamarinDemoApp.WinPhone\obj\Debug\MainPage.xbf
+C:\Users\albert\documents\visual studio 2015\Projects\XamarinDemoApp\XamarinDemoApp\XamarinDemoApp.WinPhone\obj\Debug\XamlSaveStateFile.xml
